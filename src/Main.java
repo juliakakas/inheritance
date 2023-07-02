@@ -13,5 +13,12 @@ public class Main {
 
         bird.sayHello();
         bird.sayHelloTo("Lia");
+
+        System.out.println(bird.getNoise());
+        System.out.println(bird.decreaseNoise());
+
+        cica.setLives(13);
+        cica.decreaseOfLives();
+        System.out.println("After the accident: "+ cica.getLives());
     }
 }
